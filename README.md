@@ -177,23 +177,26 @@ No known bugs at this time.
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a></li>
 </ol>
 
-## installations
+## Installations
 
 Before starting the project…
-You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
-
-$ sudo apt-get install -y python3-lxml
-$ sudo pip3 install flask_cors # if it was not installed yet
-$ sudo pip3 install flasgger
+You will work on a codebase using<a href="https://github.com/flasgger/flasgger"> Flasgger,</a> you will need to install it locally first before starting the RestAPI:
+<ul>
+        <li>$ sudo apt-get install -y python3-lxml</li>
+        <li>$ sudo pip3 install flask_cors # if it was not installed yet</li>
+        <li>$ sudo pip3 install flasgger</li>
+</ul>
 If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
 
 Here some solutions:
 
 jsonschema exception
-$ sudo pip3 uninstall -y jsonschema 
-$ sudo pip3 install jsonschema==3.0.1
+<ul>
+        <li>$ sudo pip3 uninstall -y jsonschema </li>
+        <li>$ sudo pip3 install jsonschema==3.0.1</li>
+</ul>
 No module named 'pathlib2'
-$ sudo pip3 install pathlib2
+<ul><li>$ sudo pip3 install pathlib2</li></ul>
 
 Second part of Airbnb: Joann Vuong
 
