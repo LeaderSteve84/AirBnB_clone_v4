@@ -1,4 +1,4 @@
-# AirBnB Clone - The Console
+#AirBnB Clone - The Console
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
@@ -154,11 +154,26 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-
+<ol>
+        <li>Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)</li>
+        <li>Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)</li>  
+        <li>Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)</li>
+        <li>David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)</li>
+        The two below authors worked on Web dynamic
+        <li>Stephen B. Adah - [Github](https://github.com/LeaderSteve84) / [Twitter](https://twitter.com/Elbest2018)</li>
+        <li>Richard Senyo Gadasu - </li>
+</ol>
+## Resources
+<ol>
+	<li><a href="https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/">Selector</a></li>
+	<li><a href="https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/">Get and set content</a></li>
+	<li><a href="https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/">Manipulate CSS classes</a></li>
+	<li><a href="https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/">Manipulate DOM elements</a></li>
+	<li><a href="https://learn.jquery.com/using-jquery-core/document-ready/">Document ready</a></li>
+	<li><a href="https://jquery-tutorial.net/ajax/introduction/">Introduction</a></li>
+	<li><a href="https://intranet.alxswe.com/rltoken/kmBzs_QPD72Oz--Yk80JHw">GET & POST request</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a></li>
+</ol>
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
