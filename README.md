@@ -163,7 +163,9 @@ No known bugs at this time.
         <li>Stephen B. Adah - [Github](https://github.com/LeaderSteve84) / [Twitter](https://twitter.com/Elbest2018)</li>
         <li>Richard Senyo Gadasu - </li>
 </ol>
+
 ## Resources
+
 <ol>
 	<li><a href="https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/">Selector</a></li>
 	<li><a href="https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/">Get and set content</a></li>
@@ -174,6 +176,26 @@ No known bugs at this time.
 	<li><a href="https://intranet.alxswe.com/rltoken/kmBzs_QPD72Oz--Yk80JHw">GET & POST request</a></li>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a></li>
 </ol>
+
+## installations
+
+Before starting the project…
+You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
+
+$ sudo apt-get install -y python3-lxml
+$ sudo pip3 install flask_cors # if it was not installed yet
+$ sudo pip3 install flasgger
+If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
+
+Here some solutions:
+
+jsonschema exception
+$ sudo pip3 uninstall -y jsonschema 
+$ sudo pip3 install jsonschema==3.0.1
+No module named 'pathlib2'
+$ sudo pip3 install pathlib2
+
 Second part of Airbnb: Joann Vuong
+
 ## License
 Public Domain. No copy write protection. 
