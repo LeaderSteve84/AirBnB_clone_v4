@@ -161,7 +161,7 @@ No known bugs at this time.
         <li>David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)</li>
         The two below authors worked on Web dynamic
         <li>Stephen B. Adah - [Github](https://github.com/LeaderSteve84) / [Twitter](https://twitter.com/Elbest2018)</li>
-        <li>Richard Senyo Gadasu - </li>
+        <li>Richard Senyo Gadasu - [Github](https://github.com/Senyo197) / [Twitter](https://twitter.com/RichardSenyo_)</li>
 </ol>
 
 ## Resources
