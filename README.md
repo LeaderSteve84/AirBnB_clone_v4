@@ -164,7 +164,8 @@ No known bugs at this time.
         <li>Richard Senyo Gadasu - [Github](https://github.com/Senyo197) / [Twitter](https://twitter.com/RichardSenyo_)</li>
 </ol>
 
-## Resources
+## Resources and Installations for Web Dynamic
+### Resources
 
 <ol>
 	<li><a href="https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/">Selector</a></li>
@@ -177,7 +178,7 @@ No known bugs at this time.
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a></li>
 </ol>
 
-## Installations
+### Installations
 
 Before starting the project…
 You will work on a codebase using<a href="https://github.com/flasgger/flasgger"> Flasgger,</a> you will need to install it locally first before starting the RestAPI:
@@ -198,6 +199,23 @@ jsonschema exception
 No module named 'pathlib2'
 <ul><li>$ sudo pip3 install pathlib2</li></ul>
 
+## Tasks (Web Dynamic)
+### 0. Last clone!
+mandatory
+A new codebase again? Yes!
+
+For this project you will fork this <a href="https://github.com/jzamora5/AirBnB_clone_v3">codebase:</a>
+<ul>
+        <li>Update the repository name to AirBnB_clone_v4</li>
+        <li>Update the README.md:</li>
+        <ul>
+                <li>Add yourself as an author of the project</li>
+                <li>Add new information about your new contribution</li>
+                <li>Make it better!</li>
+        </ul>
+        <li>If you’re the owner of this codebase, create a new repository called AirBnB_clone_v4 and copy over all files from AirBnB_clone_v3</li>
+        <li>If you didn’t install Flasgger from the previous project, it’s time! sudo pip3 install flasgger</li>
+</ul>
 Second part of Airbnb: Joann Vuong
 
 ## License
