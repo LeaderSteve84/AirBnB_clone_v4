@@ -265,6 +265,7 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
 </p>
 
 <p>
+
 ### 2. Select some Amenities to be comfortable!
 mandatory
 For the moment the filters section is static, let’s make it dynamic!
