@@ -216,7 +216,48 @@ For this project you will fork this <a href="https://github.com/jzamora5/AirBnB_
         <li>If you’re the owner of this codebase, create a new repository called AirBnB_clone_v4 and copy over all files from AirBnB_clone_v3</li>
         <li>If you didn’t install Flasgger from the previous project, it’s time! sudo pip3 install flasgger</li>
 </ul>
-Second part of Airbnb: Joann Vuong
 
+### 1. Cash only
+mandatory
+Write a script that starts a Flask web application:
+<ul>
+	<li>Based on web_flask, copy: web_flask/static, web_flask/templates/100-hbnb.html, web_flask/__init__.py and web_flask/100-hbnb.py into the web_dynamic folder</li>
+	<li>Rename 100-hbnb.py to 0-hbnb.py</li>
+	<li>Rename 100-hbnb.html to 0-hbnb.html</li>
+	<li>Update 0-hbnb.py to replace the existing route to /0-hbnb/</li>
+</ul>
+If 100-hbnb.html is not present, use 8-hbnb.html instead
+
+<p>guillaume@ubuntu:~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.0-hbnb
+* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+...
+</p>
+<p>.
+One problem now is the asset caching done by Flask.
+
+To avoid that, you will add a query string to each asset:
+
+In 0-hbnb.py, add a variable cache_id to the render_template. The value of this variable must be an UUID (uuid.uuid4())
+
+In 0-hbnb.html, add this variable cache_id as query string to each <link> tag URL
+</p>
+<p>
+guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?e211c9eb-7d17-4f12-85eb-4d50fa50cb1d" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?e211c9eb-7d17-4f12-85eb-4d50fa50cb1d" />
+guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
+guillaume@ubuntu:~/AirBnB_v4$  
+Second part of Airbnb: Joann Vuong
+</p>
 ## License
 Public Domain. No copy write protection. 
