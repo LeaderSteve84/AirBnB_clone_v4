@@ -259,9 +259,44 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
-guillaume@ubuntu:~/AirBnB_v4$  
+</p>
+<p>
+    guillaume@ubuntu:~/AirBnB_v4$  
+</p>
+
+<p>
+### 2. Select some Amenities to be comfortable!
+mandatory
+For the moment the filters section is static, let’s make it dynamic!
+
+Replace the route 0-hbnb with 1-hbnb in the file 1-hbnb.py (based on 0-hbnb.py)
+
+        Create a new template 1-hbnb.html (based on 0-hbnb.html) and update it:
+<ul>
+       <li>Import JQuery in the <head> tag</li>
+        <li>Import the JavaScript static/scripts/1-hbnb.js in the <head> tag</li>
+        <li>In 1-hbnb.html and the following HTML files, add this variable cache_id as query string to the above <script> tag</li>
+                <ul>        
+                        <li>Add a <input type="checkbox"> tag to the li tag of each amenity</li>
+                </ul>
+        <li>The new checkbox must be at 10px on the left of the Amenity name</li>
+        <li>Add to the input tags of each amenity (<li> tag) the attribute data-id=":amenity_id" => this will allow us to retrieve the Amenity ID from the DOM</li>
+        <li>Add to the input tags of each amenity (<li> tag) the attribute data-name=":amenity_name" => this will allow us to retrieve the Amenity name from the DOM</li>
+</ul>
+        Write a JavaScript script (static/scripts/1-hbnb.js):
+<ul>
+                <li>Your script must be executed only when DOM is loaded</li>
+                <li>You must use JQuery</li>
+                <li>Listen for changes on each input checkbox tag:</li>
+                <ul>
+                        <li>if the checkbox is checked, you must store the Amenity ID in a variable (dictionary or list)</li>
+                        <li>if the checkbox is unchecked, you must remove the Amenity ID from the variable</li>
+                        <li>update the h4 tag inside the div Amenities with the list of Amenities checked</li>
+                </ul>
+</ul>
+</p>
+
 Second part of Airbnb: Joann Vuong
-</p
->
+
 ## License
 Public Domain. No copy write protection. 
