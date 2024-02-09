@@ -242,6 +242,7 @@ In 0-hbnb.py, add a variable cache_id to the render_template. The value of this 
 In 0-hbnb.html, add this variable cache_id as query string to each <link> tag URL
 </p>
 <p>
+<p>
 guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
 <!DOCTYPE HTML>
 <html lang="en">
@@ -249,6 +250,8 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?e211c9eb-7d17-4f12-85eb-4d50fa50cb1d" />
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?e211c9eb-7d17-4f12-85eb-4d50fa50cb1d" />
+</p>
+<p>
 guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
 <!DOCTYPE HTML>
 <html lang="en">
@@ -258,6 +261,7 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
 guillaume@ubuntu:~/AirBnB_v4$  
 Second part of Airbnb: Joann Vuong
-</p>
+</p
+>
 ## License
 Public Domain. No copy write protection. 
