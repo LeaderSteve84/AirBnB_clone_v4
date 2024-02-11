@@ -31,7 +31,7 @@ $.ajax({
   data: JSON.stringify({}),
   success: function (places) {
     places.forEach(function (place) {
-      const articles = $('<article></article>');
+      const article = $('<article></article>');
       article.append('<div class="name"><h2>' + place.name + '</h2></div>');
       article.append('<div class="price_by_night">$' + place.price_by_night + '</div>');
       article.append('<div class="information">' +
@@ -44,13 +44,13 @@ $.ajax({
       '</div>');
       article.append('<div class="description">' + place.description + '</div>');
 
-      $.('places').append(article);
+      $('.places').append(article);
     });
   },
-  error: function(xhr, status){
+  error: function (xhr, status) {
     console.log('error ' + status);
   }
-})
+});
 
 $.ajax({
   url: 'http://0.0.0.0:5001/api/v1/status/',
